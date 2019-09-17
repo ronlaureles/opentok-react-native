@@ -3,6 +3,7 @@ import OTPublisher from './OTPublisher';
 import OTSubscriber from './OTSubscriber';
 import OTSubscriberView from './views/OTSubscriberView';
 import { OT } from './OT';
+import Opentok from './Opentok';
 
 export {
   OTSession,
@@ -11,3 +12,5 @@ export {
   OTSubscriberView,
   OT,
 };
+
+export default Opentok;
